@@ -71,6 +71,9 @@ p{
 .btn:hover{
     background-color: hsl(25, 97%, 53%);
 }
+.btn:focus{
+    background-color: hsl(216, 12%, 54%);
+}
 
 .submit-btn{
     display: flex;

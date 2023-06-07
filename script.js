@@ -12,10 +12,10 @@ submitButton.addEventListener("click", () => {
 
 rates.forEach(rate =>{
     rate.addEventListener("click", () => {
-        rates.forEach(rate => {
-            rate.style.backgroundColor = 'hsla(217, 12%, 63%, 0.393)';
-        })
-        rate.style.backgroundColor = 'hsl(217, 12%, 63%)';
+        // rates.forEach(rate => {
+        //     rate.style.backgroundColor = 'hsla(217, 12%, 63%, 0.393)';
+        // })
+        // rate.style.backgroundColor = 'hsl(217, 12%, 63%)';
         x = rate.innerHTML;
         score.innerHTML = ` You have rated ${x} out of 5`
     })
